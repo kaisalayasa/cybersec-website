@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styles from './MainGamePage.module.css'
+import UnityGame from '../components/UnityLoader'
 
 function MainGamePage() {
   return (
@@ -11,7 +12,7 @@ function MainGamePage() {
         </div>
 
         <section className={styles.project_container}>
-          {/* Your game will go here */}
+          <UnityGame/>
         </section>
 
         <section className={styles.overview}>
