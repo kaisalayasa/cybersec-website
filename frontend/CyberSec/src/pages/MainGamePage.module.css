@@ -1,0 +1,56 @@
+body {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.915);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+.layout{
+    margin-top: 40px;
+    display: flex;
+    width: 960px;
+  
+    flex-direction: column;
+   
+}
+
+.header h1,p{
+    margin: 2px;
+}
+
+.header p{
+    color: #637587;
+}
+.overview h1{
+    display: flex;
+}
+.overview p{
+    text-align: start;
+}
+
+.project_container{
+    font-family: monospace;
+    color: white;
+    border-radius: 12px;
+    width: 960px;
+    height:500px ;
+    background-color: #0b2a49;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.292);
+ 
+    
+    
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+.key_learning h1{
+    display: flex;
+}
+.key_learning p{
+    text-align: start;
+}
