@@ -1,18 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import MainGamePage from './pages/MainGamePage'
+import { Analytics } from '@vercel/analytics/react';
+import MainGamePage from './pages/MainGamePage';
+import './App.css';
 
 function App() {
- 
-
   return (
     <>
-    <MainGamePage/>
-    
+      <MainGamePage />
+      <Analytics />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
