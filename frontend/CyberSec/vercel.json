@@ -1,21 +1,21 @@
 {
   "headers": [
     {
-      "source": "/unity/(.*)\\.js\\.br",
+      "source": "/unity/:file.js.br",
       "headers": [
         { "key": "Content-Encoding", "value": "br" },
         { "key": "Content-Type", "value": "application/javascript" }
       ]
     },
     {
-      "source": "/unity/(.*)\\.wasm\\.br",
+      "source": "/unity/:file.wasm.br",
       "headers": [
         { "key": "Content-Encoding", "value": "br" },
         { "key": "Content-Type", "value": "application/wasm" }
       ]
     },
     {
-      "source": "/unity/(.*)\\.data\\.br",
+      "source": "/unity/:file.data.br",
       "headers": [
         { "key": "Content-Encoding", "value": "br" },
         { "key": "Content-Type", "value": "application/octet-stream" }
