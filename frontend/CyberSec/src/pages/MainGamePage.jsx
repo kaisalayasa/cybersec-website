@@ -14,6 +14,10 @@ function MainGamePage() {
         <section className={styles.project_container}>
           <UnityGame/>
         </section>
+        <br />
+        <br />
+        <hr />
+        <hr />
 
         <section className={styles.overview}>
           <hr />
@@ -25,6 +29,7 @@ function MainGamePage() {
         </section>
 
         <section className={styles.key_learning}>
+          <hr />
           <h1>Made by Kais and Nour</h1>
           <p>
             This project was created as a simple cybersecurity awareness game. Our goal is to help people learn how to stay safe online in an interactive and easy way. </p>
