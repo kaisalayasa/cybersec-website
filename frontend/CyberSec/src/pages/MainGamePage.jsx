@@ -16,6 +16,8 @@ function MainGamePage() {
         </section>
 
         <section className={styles.overview}>
+          <hr />
+          
           <h1>Overview</h1>
           <p>
            This game teaches players how to recognize common online scams. You will interact with different situations, choose how to respond, and learn the safest actions to take. The goal is to help people stay aware and make smarter decisions when using the internet.
