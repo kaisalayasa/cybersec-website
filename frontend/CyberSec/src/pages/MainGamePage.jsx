@@ -18,15 +18,14 @@ function MainGamePage() {
         <section className={styles.overview}>
           <h1>Overview</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda minima quam ipsa ipsam aut sint perferendis illo placeat ducimus, natus consequuntur sunt fuga dolorem doloribus cumque quos nihil reprehenderit veritatis.
+           This game teaches players how to recognize common online scams. You will interact with different situations, choose how to respond, and learn the safest actions to take. The goal is to help people stay aware and make smarter decisions when using the internet.
           </p>
         </section>
 
         <section className={styles.key_learning}>
-          <h1>Key Learnings</h1>
+          <h1>Made by Kais and Nour</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi asperiores repellendus, sunt vero nostrum quae eos consectetur. Modi dignissimos officiis mollitia quidem ratione? Architecto, sapiente? Beatae quidem quae perferendis quia.
-          </p>
+            This project was created as a simple cybersecurity awareness game. Our goal is to help people learn how to stay safe online in an interactive and easy way. </p>
         </section>
       </div>
     </>
