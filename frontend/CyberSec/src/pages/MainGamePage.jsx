@@ -7,7 +7,7 @@ function MainGamePage() {
     <>
       <div className={styles.layout}>
         <div className={styles.header}>
-          <h1>CyberSmart: Scam Awareness Game</h1>
+          <h1>CyberSquirrel: Scam Awareness Game</h1>
           <p>Learn how to spot scams and stay safe online</p>
         </div>
 
@@ -24,7 +24,7 @@ function MainGamePage() {
           
           <h1>Overview</h1>
           <p>
-           This game teaches players how to recognize common online scams. You will interact with different situations, choose how to respond, and learn the safest actions to take. The goal is to help people stay aware and make smarter decisions when using the internet.
+           In this level, you’ll learn how to spot physical cybersecurity risks starting with a suspicious USB left outside the café. You’ll explore the area, interact with objects, and decide how to handle the situation. The goal is to help players recognize real-world threats and make safer choices on campus.
           </p>
         </section>
 
